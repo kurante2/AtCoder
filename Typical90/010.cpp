@@ -18,6 +18,7 @@
 using namespace std;
 
 int main() {
+    // 入力
     int N, Q;
     cin >> N;
     vector<int> C(N+1),P(N+1);
