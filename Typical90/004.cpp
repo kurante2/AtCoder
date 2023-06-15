@@ -20,6 +20,7 @@ using namespace std;
 int H, W;
 
 int main() {
+    // 入力
     cin >> H >> W;
     vector<vector<int>> A(H, vector<int>(W));
     for(int i = 0; i < H; i++) {
