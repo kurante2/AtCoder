@@ -17,6 +17,7 @@
 #include <cctype> // isupper, islower, isdigit, toupper, tolower
 using namespace std;
 
+// 最大公約数を求める
 long long gcd(long long a, long long b) {
     if(b == 0) return a;
     return gcd(b, a % b);
