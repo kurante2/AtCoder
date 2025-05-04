@@ -6,5 +6,6 @@
 # vscodeが勝手に作るやつらを無視
 .vscode/
 
-# ライブラリをまとめたやつ
-library/
+#標準入出力用の.txtファイルを無視
+in.txt
+out.txt
